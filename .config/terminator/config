@@ -1,0 +1,22 @@
+[global_config]
+  enabled_plugins = InactivityWatch, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  window_state = maximise
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#002b36"
+    background_image = None
+    cursor_shape = ibeam
+    font = Ubuntu Mono 16
+    foreground_color = "#839496"
+    scrollback_infinite = True
+    use_system_font = False
