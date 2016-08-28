@@ -11,6 +11,8 @@ sudo apt-get install  mysql-server redis-server openssh-server mongodb-clients m
 
 sudo apt -y install vim terminator chromium-browser shutter
 
+sudo apt -y install maven scala
+
 
 sudo apt -y install htop
 
