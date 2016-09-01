@@ -1,10 +1,12 @@
-# Path to your oh-my-zsh installation.
-  export ZSH=/home/wjw001/.oh-my-zsh
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
+# Path to your oh-my-zsh installation.
+  export ZSH=/home/wujunwei/.oh-my-zsh
+
+# Set name of the theme to load. Optionally, if you set this to "random"
+# it'll load a random theme each time that oh-my-zsh is loaded.
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="robbyrussell"
 
 # Uncomment the following line to use case-sensitive completion.
@@ -51,12 +53,11 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git command-not-found catimg web-search sublime)
 
+source $ZSH/oh-my-zsh.sh
+
 # User configuration
 
-# export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
-
-source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -83,19 +84,73 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# added by Anaconda3 4.0.0 installer
-export PATH="/home/wjw001/anaconda2/bin:$PATH"
+# added by Anaconda2 4.0.0 installer
+export PATH="/home/wujunwei/anaconda2/bin:$PATH"
 
-export JAVA_HOME=/usr/local/big_data/jdk1.8.0_65
-export SCALA_HOME=/usr/local/big_data/scala-2.11.8
-export PATH=$JAVA_HOME/bin:$SCALA_HOME/bin:$PATH
 
-# set spark envinronment
-export SPARK_HOME="/data/spark-1.6.1-bin-hadoop2.6/"
-export PATH=$PATH:$SPARK_HOME/bin
+export JAVA_HOME=/usr/lib/jvm/default-java
+export PATH=${JAVA_HOME}/bin:$PATH
 
-export PYSPARK_DRIVER_PYTHON=ipython # As pyspark only works with python2 and not python3
-export PYSPARK_DRIVER_PYTHON_OPTS="notebook"
+export SCALA_HOME=/usr/share/scala
+export PATH=${SCALA_HOME}/bin:$PATH
 
-export PLAY_HOME=/data/activator-dist-1.3.10
-export PATH=$PATH:$PLAY_HOME/bin
+export HADOOP_HOME=/data/hadoop
+export PATH=$HADOOP_HOME/bin:$HADOOP_HOME/sbin/:$PATH
+
+export SPARK_HOME=/data/spark
+export PATH=$SPARK_HOME/bin:$PATH
+
+export HIVE_HOME=/data/hive
+export PATH=$HIVE_HOME/bin:$PATH
+
+export HBASE_HOME=/data/hbase
+export PATH=$HBASE_HOME/bin:$PATH
+
+export FLUME_HOME=/data/flume
+export PATH=$FLUME_HOME/bin:$PATH
+
+export KAFKA_HOME=/data/kafka
+export PATH=$KAFKA_HOME/bin:$PATH
+
+export ES_HOME=/data/elasticsearch
+export PATH=$ES_HOME/bin:$PATH
+
+export LOGSTASH_HOME=/data/logstash
+export PATH=$LOGSTASH/bin:$PATH
+
+export ZK_HOME=/data/zookeeper
+export PATH=$ZK_HOME/bin:$PATH
+
+export PIG_HOME=/data/pig
+export PATH=$PIG_HOME/bin:$PATH
+
+
+export PATH="/home/wujunwei/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
