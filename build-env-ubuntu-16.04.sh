@@ -1,18 +1,30 @@
 
+# 安装并更新apt-file，
+sudo apt -y install apt-file
+sudo apt-file update
 
-sudo apt -y install nodejs-legacy npm
 
-
+# 安装版本控制工具
 sudo apt -y install git subversion
 
 sudo apt -y install nginx
 
+# 安装Sql，NoSql数据库
 sudo apt-get install  mysql-server redis-server openssh-server mongodb-clients mongodb-server  
 
-sudo apt -y install vim terminator chromium-browser shutter
+# 安装desktop工具，终端工具terminator，浏览器chromium, 截图工具shutter，文件比较工具meld
+sudo apt -y install vim terminator chromium-browser shutter meld
 
 sudo apt -y install maven scala
 
+# 安装虚拟机软件virtualbox
+sudo apt -y install virtualbox-qt
+
+# 娱乐相关，图片编辑工具gimp
+sudo apt -y install gimp
+
+# nodejs及其包管理工具npm
+sudo apt -y install nodejs-legacy npm
 
 sudo apt -y install htop
 
