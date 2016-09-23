@@ -15,6 +15,9 @@ sudo apt-get install  mysql-server redis-server openssh-server mongodb-clients m
 # 安装desktop工具，终端工具terminator，浏览器chromium, 截图工具shutter，文件比较工具meld
 sudo apt -y install vim terminator chromium-browser shutter meld
 
+# 安装解压工具rar
+sudo apt -y install rar unrar
+
 sudo apt -y install maven scala
 
 # 安装虚拟机软件virtualbox
