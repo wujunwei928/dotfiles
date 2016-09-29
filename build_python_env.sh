@@ -10,7 +10,7 @@ pip install jieba nltk wordcloud
 pip install scrapy pyspider
 
 # 安装sql-nosql相关：
-pip install PyMySQL MySQLdb redis pymongo
+pip install PyMySQL redis pymongo
 
 # 安装虚拟环境相关
 pip install virtualenv
