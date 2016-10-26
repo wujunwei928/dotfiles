@@ -10,13 +10,24 @@ pip install jieba nltk wordcloud
 pip install scrapy pyspider
 
 # 安装sql-nosql相关：
-pip install PyMySQL MySQLdb redis pymongo
+pip install PyMySQL redis pymongo
 
 # 安装虚拟环境相关
 pip install virtualenv
 
-# 安装运维相关
-pip install psutil pexpect fabric ansible
+# 安装自动化运维相关
+pip install pexpect fabric ansible  # 自动部署相关
+pip install psutil  # 系统性能信息模块
+pip install ipy  # IP地址处理模块
+pip install dnspython  # DNS处理模块
+
+# python操作excel
+pip install XlsxWriter
+
+# python开发MapReduce
+pip install mrjob
+
+
 
 # 安装web开发相关
 pip install diango flask
