@@ -3,7 +3,7 @@
 # 安装数据挖掘相关包
 pip install pandas scikit-learn scikit-image
 
-# 安紫自然语言处理
+# 安装自然语言处理
 pip install jieba nltk wordcloud
 
 # 安装爬虫相关
