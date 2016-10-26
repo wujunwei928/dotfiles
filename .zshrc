@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/wujunwei/.oh-my-zsh
+  export ZSH=${HOME}/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -51,7 +51,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git command-not-found catimg web-search sublime)
+plugins=(git command-not-found catimg web-search colored-man-pages wd autojump)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -85,7 +85,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # added by Anaconda2 4.0.0 installer
-export PATH="/home/wujunwei/anaconda2/bin:$PATH"
+export PATH="${HOME}/anaconda2/bin:$PATH"
 
 
 export JAVA_HOME=/usr/lib/jvm/default-java
@@ -93,6 +93,9 @@ export PATH=${JAVA_HOME}/bin:$PATH
 
 export SCALA_HOME=/usr/share/scala
 export PATH=${SCALA_HOME}/bin:$PATH
+
+export M2_HOME=/usr/share/maven
+export PATH=${M2_HOME}/bin:$PATH
 
 export HADOOP_HOME=/data/hadoop
 export PATH=$HADOOP_HOME/bin:$HADOOP_HOME/sbin/:$PATH
@@ -125,11 +128,12 @@ export PIG_HOME=/data/pig
 export PATH=$PIG_HOME/bin:$PATH
 
 
-export PATH="/home/wujunwei/.pyenv/bin:$PATH"
+export PATH="${HOME}/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
 
+eval $(thefuck --alias)
 
 
 
