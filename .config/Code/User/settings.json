@@ -1,0 +1,17 @@
+{
+    "editor.fontSize": 16,
+
+    "editor.fontFamily": "'Yahei Mono', 'Courier New', monospace, 'Ubuntu Mono'",
+
+    // 是否自动换行
+    "editor.wordWrap": "on",
+
+    // 是否显示mini地图
+    "editor.minimap.enabled": true,
+
+    // 提示的时候， 优先显示代码片段
+    "editor.snippetSuggestions": "top",
+
+    // 设置默认Python路径
+    "python.pythonPath": "~/anaconda2/bin/python"
+}
